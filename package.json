@@ -1,7 +1,7 @@
 {
-  "name": "@yoshinorikoide/xmascard",
+  "name": "@roomtv/xmascard",
   "version": "1.0.0",
-  "description": "",
+  "description": "My Christmas Card",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yoshinori-Koide-PRO/xmascard.git"
+  },
+  "bin": {
+    "merryxmas": "index.js"
   },
   "keywords": [
     "christmas",
@@ -22,5 +25,15 @@
   "bugs": {
     "url": "https://github.com/Yoshinori-Koide-PRO/xmascard/issues"
   },
-  "homepage": "https://github.com/Yoshinori-Koide-PRO/xmascard#readme"
+  "homepage": "https://github.com/Yoshinori-Koide-PRO/xmascard#readme",
+  "dependencies": {
+    "ascii-art": "^2.5.0",
+    "asciify-image": "^0.1.6",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "inquirer": "^7.3.3",
+    "open": "^7.3.0"
+  },
+  "devDependencies": {}
 }
